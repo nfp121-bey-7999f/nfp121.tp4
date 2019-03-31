@@ -10,10 +10,10 @@ import java.util.Observer;
 /**
  * Décrivez votre classe Controleur ici.
  * 
- * @author (votre nom)
- * @version (un numéro de version ou une date)
+ * @author Arda Topjian 
+ * @version 
  */
-public class Vue extends JPanel {// à compléter
+public class Vue extends JPanel implements Observer{
 
     private JLabel etatPile;
     private PileModele<Integer> pile;

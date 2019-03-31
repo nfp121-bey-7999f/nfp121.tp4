@@ -1,16 +1,17 @@
 package question2;
 
-//import java.awt.event.// à compléter
+import java.awt.event.MouseListener;
 import java.awt.event.MouseEvent;
 import java.awt.TextArea;
+import java.awt.Point;
 
 /**
  * Décrivez votre classe JButtonObserver ici.
  * 
- * @author (votre nom)
- * @version (un numéro de version ou une date)
+ * @author Arda Topjian 
+ * @version 
  */
-public class JMouseObserver { // à compléter
+public class JMouseObserver implements MouseListener{ 
 
 	private String nom;
 	private TextArea contenu;

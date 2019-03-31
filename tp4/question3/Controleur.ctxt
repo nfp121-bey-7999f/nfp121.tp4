@@ -1,6 +1,20 @@
 #BlueJ class context
 comment0.params=pile
-comment0.target=Controleur(PileModele<Integer>)
+comment0.target=Controleur(PileModele)
+comment1.params=
 comment1.target=void\ actualiserInterface()
-comment2.target=Integer\ operande()
-numComments=3
+comment2.params=
+comment2.target=java.lang.Integer\ operande()
+comment3.params=evt
+comment3.target=void\ handlePush(java.awt.event.ActionEvent)
+comment4.params=evt
+comment4.target=void\ handleAdd(java.awt.event.ActionEvent)
+comment5.params=evt
+comment5.target=void\ handleSub(java.awt.event.ActionEvent)
+comment6.params=evt
+comment6.target=void\ handleMul(java.awt.event.ActionEvent)
+comment7.params=evt
+comment7.target=void\ handleDiv(java.awt.event.ActionEvent)
+comment8.params=evt
+comment8.target=void\ handleClear(java.awt.event.ActionEvent)
+numComments=9
